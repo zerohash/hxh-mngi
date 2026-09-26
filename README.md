@@ -125,4 +125,15 @@ it will be.
 
 ## Thanks
 
-To the [RIBAIAN walkthrough](https://gaming.main.jp/hxhmaborosi/), and to the Redump project, for the disc verification this patch depends on.
+To the [RIBAIAN walkthrough](https://gaming.main.jp/hxhmaborosi/).
+
+To [Hunterpedia](https://hunterxhunter.fandom.com/).
+
+To [Voracious Drake](https://voraciousdrake.wordpress.com/).
+
+To the Redump project, for the disc verification this patch depends on.
+
+## Game information and guides
+
+<https://www.zerohash.net/hunter-x-hunter-maboroshi-no-greed-island/>
+
