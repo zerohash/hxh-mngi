@@ -35,8 +35,11 @@ Your `.bin` must match these exactly:
 | SHA-1 | `af7f343cb4b2f3f5055cef78a5238d490c63c7da` |
 
 There are two other versions of this game that have not been tested:
+
 PSOne Books: SLPM-87205
+
 Konami The Best: SLPM-86829
+
 If you have either of these versions and want to help test, please contact me.
 
 This is the Redump-verified dump of the retail disc. If your file is a
