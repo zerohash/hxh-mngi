@@ -57,7 +57,7 @@ original; it writes a new, patched image alongside it.
 
 ### Windows, the easy way
 
-1. Download [Delta Patcher](https://github.com/marcrobledo/delta-patcher/releases).
+1. Download [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases).
 2. Open it, set **Original file** to your `.bin`, set **XDelta patch** to
    `hxhgi-vwf.xdelta`.
 3. Press **Apply patch**.
