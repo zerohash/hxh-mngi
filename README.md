@@ -1,11 +1,13 @@
 # Hunter × Hunter: Maboroshi no Greed Island (English translation)
 
+**Version 1.1**
+
 An English fan translation of **ハンター×ハンター 幻のグリードアイランド**
-(*Hunter × Hunter: Maboroshi no Greed Island*), a PlayStation rougelike RPG
+(*Hunter × Hunter: Maboroshi no Greed Island*), a PlayStation roguelike RPG
 released only in Japan.
 
 The patch translates the script, the menus, and every table the game reads
-from: items, weapons, armour, Nen abilities, areas, shops, the quest log and
+from: items, weapons, armor, Nen abilities, areas, shops, the quest log and
 the ending score screen. It also replaces the fixed-pitch font with a
 proportional one, so English text fits the game's windows instead of sprawling
 out of them.
@@ -52,22 +54,22 @@ See [Legal](#legal).
 
 ## Applying the patch
 
-The patch is an **xdelta3** file, `hxhgi-vwf.xdelta`. It never modifies your
+The patch is an **xdelta3** file, `hxh-mngi-eng-v1.1.xdelta`. It never modifies your
 original; it writes a new, patched image alongside it.
 
 ### Windows, the easy way
 
 1. Download [Delta Patcher](https://github.com/marco-calautti/DeltaPatcher/releases).
 2. Open it, set **Original file** to your `.bin`, set **XDelta patch** to
-   `hxhgi-vwf.xdelta`.
+   `hxh-mngi-eng-v1.1.xdelta`.
 3. Press **Apply patch**.
 
 ### Any platform, on the command line
 
 ```sh
 xdelta3 -d -s "Hunter x Hunter - Maboroshi no Greed Island (Japan).bin" \
-        hxhgi-vwf.xdelta \
-        hxhgi-en.bin
+        hxh-mngi-eng-v1.1.xdelta \
+        hxh-mngi-eng-v1.1.bin
 ```
 
 `xdelta3` is in most package managers (`apt install xdelta3`,
@@ -75,11 +77,11 @@ xdelta3 -d -s "Hunter x Hunter - Maboroshi no Greed Island (Japan).bin" \
 
 ### Make the .cue
 
-The patch produces a `.bin` only. Put a text file named `hxhgi-en.cue` beside
+The patch produces a `.bin` only. Put a text file named `hxh-mngi-eng-v1.1.cue` beside
 it containing:
 
 ```
-FILE "hxhgi-en.bin" BINARY
+FILE "hxh-mngi-eng-v1.1.bin" BINARY
   TRACK 01 MODE2/2352
     INDEX 01 00:00:00
 ```
@@ -94,9 +96,9 @@ The patched image should be:
 | | |
 | --- | --- |
 | Size | `129,124,800` bytes |
-| CRC32 | `7D778335` |
-| MD5 | `1e2abc4971f5f52620838454ed6ebe65` |
-| SHA-1 | `0db02103ae4368e0d4a1d26ce3d4fa1fcea0d61a` |
+| CRC32 | `8BCF6901` |
+| MD5 | `7136bdf15279afcfe79c490a6e581e3b` |
+| SHA-1 | `8a7879dd57bfee6ff6b48811d50425ff0fcd5454` |
 
 If these do not match, your source image was not the one described above.
 
@@ -137,9 +139,6 @@ To the [RIBAIAN walkthrough](https://gaming.main.jp/hxhmaborosi/).
 
 To [Hunterpedia](https://hunterxhunter.fandom.com/).
 
-To the Redump project, for the disc verification this patch depends on.
-
 ## Game information and guides
 
 <https://www.zerohash.net/hunter-x-hunter-maboroshi-no-greed-island/>
-
